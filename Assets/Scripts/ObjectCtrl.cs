@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ObjectCtrl : MonoBehaviour
 {
     [SerializeField] private GameObject gamePanel;
+    [SerializeField] private TextMeshProUGUI text;
+    // TextMeshPro 
 
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -23,7 +26,5 @@ public class ObjectCtrl : MonoBehaviour
         {
             gamePanel.SetActive(false);
         }
-
-
     }
 }
